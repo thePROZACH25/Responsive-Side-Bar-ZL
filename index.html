@@ -106,7 +106,20 @@
         <div class="text">Home Content</div>
     </div>
 
-
+    <script>
+        let btn = document.querySelector('#btn');
+        let sidebar = document.querySelector('.sidebar');
+        let searchBtn = document.querySelector('.bx-search');
+        
+        btn.onclick = function() {
+            sidebar.classList.toggle('active')
+        }
+        
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle('active')
+        }
+        
+    </script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
